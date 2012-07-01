@@ -5,6 +5,7 @@ gem 'bson_ext'
 gem 'mongoid'
 gem 'therubyracer'
 gem 'puma'
+gem 'devise'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
