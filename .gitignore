@@ -1,0 +1,16 @@
+.bundle
+*.swp
+log/*.log
+tmp/
+dump/*
+public/assets
+config/mongoid.yml
+public/system/**/*
+public/uploads/**/*
+bin/
+cache/
+gems/
+autotest/
+doc/
+specifications/
+.sass-cache/
