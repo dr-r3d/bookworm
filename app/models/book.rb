@@ -4,4 +4,5 @@ class Book
 
   field :title, type: String
   field :description, type: String 
+  field :stock, type: Integer
 end
