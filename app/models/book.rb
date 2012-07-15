@@ -8,4 +8,6 @@ class Book
   field :publication, type: String
   field :author, type: String
   field :print_year, type: Integer
+
+  has_many :issue_requests
 end
