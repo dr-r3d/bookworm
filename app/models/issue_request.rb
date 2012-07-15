@@ -6,4 +6,6 @@ class IssueRequest
   belongs_to :book
 
   field :approved, type: Boolean, default: false
+
+  scope :approved_count, where(approved: true).count
 end

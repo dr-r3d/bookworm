@@ -1,6 +1,7 @@
 class Book
   include Mongoid::Document
   include Mongoid::Timestamps
+  include IssueLogic
 
   field :title, type: String
   field :description, type: String 
