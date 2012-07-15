@@ -9,5 +9,5 @@ class Book
   field :author, type: String
   field :print_year, type: Integer
 
-  has_many :issue_requests
+  has_many :issue_requests, as: :item
 end
